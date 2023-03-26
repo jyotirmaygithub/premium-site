@@ -1,0 +1,629 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@700&family=Shantell+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Indie+Flower&family=Montserrat:wght@300&family=PT+Sans&family=Secular+One&display=swap');
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* all the universal one css properties will be remian in this confined area */
+.universal-0 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.universal1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.universal2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.universal-3 {
+    display: flex;
+}
+
+.universal3-sub {
+    height: 100vh;
+    width: 50%;
+}
+
+.universal-4 {
+    display: grid;
+}
+
+.universal-5 {
+    display: flex;
+    flex-direction: row;
+}
+
+.universal-6 {
+    height: 100vh;
+    width: 100vw;
+}
+
+.universal-7 {
+    width: 40vw;
+}
+
+.universal-8 {
+    width: 25px;
+}
+
+.universal-9 {
+    width: 20vw;
+}
+
+.universal-10 {
+    width: 70px;
+}
+
+.uni-color {
+    color: white;
+}
+
+.uni-style {
+    font-family: 'Heebo', sans-serif;
+}
+
+.uni-style2 {
+    font-family: 'Heebo', sans-serif;
+}
+
+.uni-style-3 {
+    font-family: 'Shantell Sans', cursive;
+    font-size: 26px;
+}
+
+.uni-style-4 {
+    font-family: 'Dosis',
+        sans-serif;
+    font-size: 18px;
+}
+
+.font-size-title {
+    font-size: 45px;
+    padding: 0 1vw;
+}
+
+.font-size-title-2 {
+    font-size: 65px;
+    padding-left: 3vw;
+}
+
+.uni-padding {
+    padding: 0vw 1vw;
+}
+
+.img1-container {
+    height: 70vh;
+    width: 27vw;
+}
+
+.img2-container {
+    height: 100vh;
+    width: 40%;
+}
+
+.img1-subcontainer {
+    height: 70vh;
+    width: 27vw;
+    position: absolute;
+    z-index: -2;
+}
+
+.img-1 {
+    height: 100%;
+    width: 100%;
+
+}
+
+.img-2 {
+    height: 100%;
+    width: 100%;
+}
+
+.img-3 {
+    width: 85%;
+}
+
+.img-pable-4 {
+    width: 100%;
+}
+
+.img-5 {
+    width: 8%;
+}
+
+.img-6 {
+    width: 100%;
+}
+
+/* <-----end of the universal properties---> */
+.big-box-height {
+    height: 100vh;
+}
+.height-1 {
+    height: 8vh;
+}
+.long-coat {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+
+}
+.some-changes {
+    padding: 0vw 1vw;
+    list-style: none;
+}
+
+.effort-slider {
+    display: inline-flex;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.empower {
+    height: 55vh;
+}
+
+.creativity {
+    height: 100vh;
+    width: 38vw;
+    display: table-cell;
+}
+
+.sub-creativity {
+    margin-top: 25vh;
+}
+
+.creativity-part2 {
+    width: 16vw;
+    margin-top: 10vh;
+    margin-left: 11rem;
+}
+
+.image-slider-container {
+    overflow: hidden;
+    height: 100vh;
+    width: 62%;
+    display: table-cell;
+
+}
+
+.multi-image {
+    height: 70%;
+    position: relative;
+    width: 300%;
+    display: flex;
+    margin: 0;
+    left: 0;
+    animation-name: image-slider;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+img {
+    float: left;
+    width: 100%;
+}
+
+@keyframes image-slider {
+    0% {
+        left: 0;
+    }
+
+    20% {
+        left: 0;
+    }
+
+    25% {
+        left: -100%;
+    }
+
+    45% {
+        left: -100%;
+    }
+
+    50% {
+        left: -200%;
+    }
+
+    70% {
+        left: -200%;
+    }
+
+    100% {
+        left: -200%;
+    }
+
+    /* <---vertical slider section--->   */
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(21, 21, 21);
+    border-radius: 20px;
+}
+
+.scroll-box {
+    position: absolute;
+    top: 255vh;
+    left: 40vw;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.for-better {
+    overflow: auto;
+}
+
+/* <---another important section----> */
+
+.circle {
+    float: right;
+    width: 40vw;
+}
+
+.heading-beside-circle {
+    height: 45%;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.future {
+    display: flex;
+    justify-content: end;
+
+}
+
+.revolving-cicle img {
+    animation-name: revolving-circle-with-speed;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+
+}
+
+@keyframes revolving-circle-with-speed {
+    from {
+        transform: rotateZ(0deg)
+    }
+
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.remembrance {
+    height: 100vh;
+    width: 30vw;
+}
+
+::-webkit-scrollbar :horizontal {
+    width: 0px !important;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color:transparent;
+    overflow: hidden;
+    border-radius: 0;
+    opacity: .5;
+}
+
+.horizontal-scrollbar {
+    position: absolute;
+    top: 500vh;
+    left: 30vw;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70%;
+    width: 70%;
+    height: 70%;
+    overflow-x: scroll;
+
+}
+
+.translate {
+    transform: translateX(5vw);
+}
+
+.translate-2 {
+    transform: translateX(10vw);
+}
+
+.translate-3 {
+    transform: translateX(15vw);
+}
+
+.translate-4 {
+    transform: translateX(20vw);
+}
+
+.translate-5 {
+    transform: translateX(25vw);
+}
+
+.pablo-box {
+    height: 70vh;
+    width: 21vw;
+}
+
+.pablo-box-2 {
+    height: 70vh;
+    width: 35vw;
+}
+
+.pablo-box-3 {
+    height: 70vh;
+    width: 21vw;
+}
+
+.pablo-box-4 {
+    height: 70vh;
+    width: 21vw;
+}
+
+.rthu-magazine {
+    height: 95vh;
+    width: 70vw;
+}
+
+.words-of-magazine {
+    height: 100vh;
+    width: 30vw;
+    margin-left: 1vw;
+}
+
+.line-height {
+    line-height: 2;
+}
+
+.line-height-2 {
+    line-height: 4;
+}
+
+.subscribe {
+    margin: 40px;
+}
+
+.send-words {
+    padding-left: 80px;
+    padding-top: 10px;
+}
+
+.for-email {
+    width: 20vw;
+}
+
+#write-email {
+    width: 100%;
+    outline: none;
+    background-color: transparent;
+    height: 7vh;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.delivery-logo {
+    width: 30vw;
+    height: 33vh;
+    justify-content: space-around;
+}
+
+.copy {
+    height: 14vh;
+    justify-content: flex-end;
+    padding-right: 40px;
+}
+
+.addition {
+    margin-top: 5vh;
+    margin-left: 1vw;
+    margin-bottom: 15vh;
+}
+
+.another-addition {
+    margin-bottom: 30vh;
+}
+
+.change-color {
+    background-color: antiquewhite;
+}
+
+.hover-thing {
+    position: relative;
+}
+
+.hover-thing-2 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: none;
+}
+
+.hover-thing:hover .hover-thing-2 {
+    display: block;
+}
+
+/* <----color changing animation for circle revolving box--> */
+
+.animated-color {
+    animation-name: changing-color;
+    animation-duration: 10s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    height: 100vh;
+}
+
+@keyframes changing-color {
+    0% {
+        background-color: #F7F9F9;
+    }
+
+    10% {
+        background-color: #F4F6F7;
+    }
+
+    20% {
+        background-color: #F0F3F4;
+    }
+
+    30% {
+        background-color: #ECF0F1;
+    }
+
+    40% {
+        background-color: #D0D3D4;
+    }
+
+    50% {
+        background-color: #A6ACAF;
+    }
+
+    60% {
+        background-color: #CACFD2;
+    }
+
+    70% {
+        background-color: #E5E7E9;
+    }
+
+    80% {
+        background-color: #F2F3F4;
+    }
+
+    90% {
+        background-color: #F8F9F9;
+    }
+
+    100% {
+        background-color: #FDFEFE;
+    }
+}
+
+/* <---animation end here-----> */
+.modify-report {
+    height: 32vh;
+    width: 15vw;
+    background-color: #F8F9F9;
+    border-radius: 50%;
+    margin-left: 2vh;
+
+}
+
+.just-one-change {
+    color: black;
+    font-family: 'Shantell Sans', cursive;
+}
+
+/* <----creating rotating text animation---> */
+.act-as-father{
+    height: 40vh;
+    width: 100vw;
+    overflow: hidden;
+}
+.rotating-text {
+    animation-name: rotating-text-animation;
+    animation-duration: 10s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    width: 300%;
+    position: relative;
+
+}
+
+@keyframes rotating-text-animation {
+    0% {
+        left: 0%;
+    }
+
+    20% {
+        left: -40%;
+    }
+
+    40% {
+        left: -100%;
+    }
+
+    60% {
+        left: -100%;
+    }
+
+    80% {
+        left: -150%;
+    }
+
+    100% {
+        left: -200%;
+    }
+}
+
+.for-text {
+    width: 70vw;
+    height: 20vh;
+}
+.for-text-2 {
+    width: 80vw;
+    height: 20vh;
+}
+.for-plant{
+    font-family: 'Shantell Sans', cursive;
+    font-size: 40px;
+    float: left;
+}
+.subpart-of-magazine{
+    height: 30vh;
+    width: 22vw;
+    margin-left: 12vh;
+}
+.for-subscribe{
+    height: 5vh;
+    width: 100vw;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.ten-percent-off{
+    color: white;
+}
+.some-modification-on-report{
+    margin-left: 14vw;
+    background-color: #ECF0F1 ;
+}
